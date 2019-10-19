@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		253E438517F58C3416A8A1E4 /* Pods_Fyr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A5B67AB7751F6936A74DAE /* Pods_Fyr.framework */; };
+		A53293E6235B844F009F701E /* VerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53293E5235B844F009F701E /* VerificationCodeViewController.swift */; };
+		A53293E8235B84BD009F701E /* ModelRaffs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53293E7235B84BD009F701E /* ModelRaffs.swift */; };
 		A562E13B235B3ECB00C2A48F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562E13A235B3ECB00C2A48F /* AppDelegate.swift */; };
 		A562E13D235B3ECB00C2A48F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562E13C235B3ECB00C2A48F /* SceneDelegate.swift */; };
 		A562E13F235B3ECB00C2A48F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562E13E235B3ECB00C2A48F /* ViewController.swift */; };
 		A562E142235B3ECB00C2A48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A562E140235B3ECB00C2A48F /* Main.storyboard */; };
 		A562E144235B3ECD00C2A48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A562E143235B3ECD00C2A48F /* Assets.xcassets */; };
 		A562E147235B3ECD00C2A48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A562E145235B3ECD00C2A48F /* LaunchScreen.storyboard */; };
-		A562E152235B3ECD00C2A48F /* FyrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562E151235B3ECD00C2A48F /* FyrTests.swift */; };
-		A562E15D235B3ECD00C2A48F /* FyrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562E15C235B3ECD00C2A48F /* FyrUITests.swift */; };
+		A58DBFEA235B8F340031BAC2 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58DBFE9235B8F330031BAC2 /* PushNotificationManager.swift */; };
+		A58DBFEF235B920B0031BAC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFEE235B920B0031BAC2 /* GoogleService-Info.plist */; };
+		A5EAEE22235B77400087BF7C /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EAEE21235B77400087BF7C /* PushNotificationSender.swift */; };
+		A5EAEE25235B79010087BF7C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EAEE24235B79010087BF7C /* LoginViewController.swift */; };
+		A5EAEE2A235B7A1F0087BF7C /* LoginExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EAEE29235B7A1F0087BF7C /* LoginExecuter.swift */; };
+		A5EAEE2C235B7A3E0087BF7C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EAEE2B235B7A3D0087BF7C /* Model.swift */; };
+		AAD11F41A9A0876D373D76D3 /* Pods_Fyr_FyrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3C75044084B038B2B9FFF2 /* Pods_Fyr_FyrUITests.framework */; };
+		EA68D0FD20B11C5EBE13FA60 /* Pods_FyrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C585304E400070052051C4 /* Pods_FyrTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B876826D0B43F918CD1538 /* Pods-Fyr-FyrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fyr-FyrUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fyr-FyrUITests/Pods-Fyr-FyrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19B15500E71E02D04F06EE2B /* Pods-Fyr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fyr.release.xcconfig"; path = "Target Support Files/Pods-Fyr/Pods-Fyr.release.xcconfig"; sourceTree = "<group>"; };
+		37CD207A850DA810315432F4 /* Pods-Fyr-FyrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fyr-FyrUITests.release.xcconfig"; path = "Target Support Files/Pods-Fyr-FyrUITests/Pods-Fyr-FyrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51C585304E400070052051C4 /* Pods_FyrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FyrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		547540F2A680606BDEEEFE20 /* Pods-FyrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FyrTests.debug.xcconfig"; path = "Target Support Files/Pods-FyrTests/Pods-FyrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80F9A17B9CCD7A9F246182B5 /* Pods-FyrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FyrTests.release.xcconfig"; path = "Target Support Files/Pods-FyrTests/Pods-FyrTests.release.xcconfig"; sourceTree = "<group>"; };
+		A53293E5235B844F009F701E /* VerificationCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeViewController.swift; sourceTree = "<group>"; };
+		A53293E7235B84BD009F701E /* ModelRaffs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelRaffs.swift; sourceTree = "<group>"; };
 		A562E137235B3ECB00C2A48F /* Fyr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fyr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A562E13A235B3ECB00C2A48F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A562E13C235B3ECB00C2A48F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +61,17 @@
 		A562E146235B3ECD00C2A48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A562E148235B3ECD00C2A48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A562E14D235B3ECD00C2A48F /* FyrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FyrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A562E151235B3ECD00C2A48F /* FyrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FyrTests.swift; sourceTree = "<group>"; };
-		A562E153235B3ECD00C2A48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A562E158235B3ECD00C2A48F /* FyrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FyrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A562E15C235B3ECD00C2A48F /* FyrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FyrUITests.swift; sourceTree = "<group>"; };
-		A562E15E235B3ECD00C2A48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58DBFE9235B8F330031BAC2 /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
+		A58DBFEB235B91070031BAC2 /* FyrRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FyrRelease.entitlements; sourceTree = "<group>"; };
+		A58DBFEE235B920B0031BAC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Into the groove/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A5EAEE21235B77400087BF7C /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
+		A5EAEE24235B79010087BF7C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A5EAEE29235B7A1F0087BF7C /* LoginExecuter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginExecuter.swift; sourceTree = "<group>"; };
+		A5EAEE2B235B7A3D0087BF7C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C7A5B67AB7751F6936A74DAE /* Pods_Fyr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fyr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF770CAE6448902328CCE68 /* Pods-Fyr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fyr.debug.xcconfig"; path = "Target Support Files/Pods-Fyr/Pods-Fyr.debug.xcconfig"; sourceTree = "<group>"; };
+		FB3C75044084B038B2B9FFF2 /* Pods_Fyr_FyrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fyr_FyrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253E438517F58C3416A8A1E4 /* Pods_Fyr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA68D0FD20B11C5EBE13FA60 /* Pods_FyrTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +95,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD11F41A9A0876D373D76D3 /* Pods_Fyr_FyrUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F319BA59B9FC42EB5E63613 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7A5B67AB7751F6936A74DAE /* Pods_Fyr.framework */,
+				FB3C75044084B038B2B9FFF2 /* Pods_Fyr_FyrUITests.framework */,
+				51C585304E400070052051C4 /* Pods_FyrTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56AC36F82E9BF37DE21B59E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDF770CAE6448902328CCE68 /* Pods-Fyr.debug.xcconfig */,
+				19B15500E71E02D04F06EE2B /* Pods-Fyr.release.xcconfig */,
+				17B876826D0B43F918CD1538 /* Pods-Fyr-FyrUITests.debug.xcconfig */,
+				37CD207A850DA810315432F4 /* Pods-Fyr-FyrUITests.release.xcconfig */,
+				547540F2A680606BDEEEFE20 /* Pods-FyrTests.debug.xcconfig */,
+				80F9A17B9CCD7A9F246182B5 /* Pods-FyrTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A53293E9235B8884009F701E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A562E12E235B3ECB00C2A48F = {
 			isa = PBXGroup;
 			children = (
 				A562E139235B3ECB00C2A48F /* Fyr */,
-				A562E150235B3ECD00C2A48F /* FyrTests */,
-				A562E15B235B3ECD00C2A48F /* FyrUITests */,
 				A562E138235B3ECB00C2A48F /* Products */,
+				56AC36F82E9BF37DE21B59E3 /* Pods */,
+				4F319BA59B9FC42EB5E63613 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,33 +155,41 @@
 		A562E139235B3ECB00C2A48F /* Fyr */ = {
 			isa = PBXGroup;
 			children = (
+				A58DBFEB235B91070031BAC2 /* FyrRelease.entitlements */,
+				A5EAEE23235B78D70087BF7C /* ViewControllers */,
 				A562E13A235B3ECB00C2A48F /* AppDelegate.swift */,
+				A58DBFE9235B8F330031BAC2 /* PushNotificationManager.swift */,
 				A562E13C235B3ECB00C2A48F /* SceneDelegate.swift */,
 				A562E13E235B3ECB00C2A48F /* ViewController.swift */,
 				A562E140235B3ECB00C2A48F /* Main.storyboard */,
 				A562E143235B3ECD00C2A48F /* Assets.xcassets */,
 				A562E145235B3ECD00C2A48F /* LaunchScreen.storyboard */,
+				A53293E7235B84BD009F701E /* ModelRaffs.swift */,
+				A5EAEE2B235B7A3D0087BF7C /* Model.swift */,
+				A5EAEE21235B77400087BF7C /* PushNotificationSender.swift */,
+				A5EAEE29235B7A1F0087BF7C /* LoginExecuter.swift */,
 				A562E148235B3ECD00C2A48F /* Info.plist */,
+				A58DBFEE235B920B0031BAC2 /* GoogleService-Info.plist */,
+				A53293E9235B8884009F701E /* Model */,
+				A5EAEE28235B79EF0087BF7C /* Backend */,
 			);
 			path = Fyr;
 			sourceTree = "<group>";
 		};
-		A562E150235B3ECD00C2A48F /* FyrTests */ = {
+		A5EAEE23235B78D70087BF7C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				A562E151235B3ECD00C2A48F /* FyrTests.swift */,
-				A562E153235B3ECD00C2A48F /* Info.plist */,
+				A5EAEE24235B79010087BF7C /* LoginViewController.swift */,
+				A53293E5235B844F009F701E /* VerificationCodeViewController.swift */,
 			);
-			path = FyrTests;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		A562E15B235B3ECD00C2A48F /* FyrUITests */ = {
+		A5EAEE28235B79EF0087BF7C /* Backend */ = {
 			isa = PBXGroup;
 			children = (
-				A562E15C235B3ECD00C2A48F /* FyrUITests.swift */,
-				A562E15E235B3ECD00C2A48F /* Info.plist */,
 			);
-			path = FyrUITests;
+			path = Backend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A562E161235B3ECD00C2A48F /* Build configuration list for PBXNativeTarget "Fyr" */;
 			buildPhases = (
+				40330C47125601299DAEB747 /* [CP] Check Pods Manifest.lock */,
 				A562E133235B3ECB00C2A48F /* Sources */,
 				A562E134235B3ECB00C2A48F /* Frameworks */,
 				A562E135235B3ECB00C2A48F /* Resources */,
+				C8606C4C097611C773683F79 /* [CP] Embed Pods Frameworks */,
+				C0627ABA2197CDB1E4E32EAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A562E164235B3ECD00C2A48F /* Build configuration list for PBXNativeTarget "FyrTests" */;
 			buildPhases = (
+				4F3017102D81A4B8F8656FA9 /* [CP] Check Pods Manifest.lock */,
 				A562E149235B3ECD00C2A48F /* Sources */,
 				A562E14A235B3ECD00C2A48F /* Frameworks */,
 				A562E14B235B3ECD00C2A48F /* Resources */,
@@ -170,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A562E167235B3ECD00C2A48F /* Build configuration list for PBXNativeTarget "FyrUITests" */;
 			buildPhases = (
+				4D2E50E7451C9B3387ACF807 /* [CP] Check Pods Manifest.lock */,
 				A562E154235B3ECD00C2A48F /* Sources */,
 				A562E155235B3ECD00C2A48F /* Frameworks */,
 				A562E156235B3ECD00C2A48F /* Resources */,
+				9536D0176DF4AF106FD219F1 /* [CP] Embed Pods Frameworks */,
+				7079A60A33BB68A63B73D0D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A562E147235B3ECD00C2A48F /* LaunchScreen.storyboard in Resources */,
+				A58DBFEF235B920B0031BAC2 /* GoogleService-Info.plist in Resources */,
 				A562E144235B3ECD00C2A48F /* Assets.xcassets in Resources */,
 				A562E142235B3ECB00C2A48F /* Main.storyboard in Resources */,
 			);
@@ -254,14 +326,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40330C47125601299DAEB747 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fyr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D2E50E7451C9B3387ACF807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fyr-FyrUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F3017102D81A4B8F8656FA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FyrTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7079A60A33BB68A63B73D0D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fyr-FyrUITests/Pods-Fyr-FyrUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fyr-FyrUITests/Pods-Fyr-FyrUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fyr-FyrUITests/Pods-Fyr-FyrUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9536D0176DF4AF106FD219F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fyr-FyrUITests/Pods-Fyr-FyrUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fyr-FyrUITests/Pods-Fyr-FyrUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fyr-FyrUITests/Pods-Fyr-FyrUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0627ABA2197CDB1E4E32EAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fyr/Pods-Fyr-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fyr/Pods-Fyr-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fyr/Pods-Fyr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8606C4C097611C773683F79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fyr/Pods-Fyr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fyr/Pods-Fyr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fyr/Pods-Fyr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A562E133235B3ECB00C2A48F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5EAEE2C235B7A3E0087BF7C /* Model.swift in Sources */,
 				A562E13F235B3ECB00C2A48F /* ViewController.swift in Sources */,
+				A58DBFEA235B8F340031BAC2 /* PushNotificationManager.swift in Sources */,
 				A562E13B235B3ECB00C2A48F /* AppDelegate.swift in Sources */,
 				A562E13D235B3ECB00C2A48F /* SceneDelegate.swift in Sources */,
+				A53293E6235B844F009F701E /* VerificationCodeViewController.swift in Sources */,
+				A5EAEE25235B79010087BF7C /* LoginViewController.swift in Sources */,
+				A53293E8235B84BD009F701E /* ModelRaffs.swift in Sources */,
+				A5EAEE2A235B7A1F0087BF7C /* LoginExecuter.swift in Sources */,
+				A5EAEE22235B77400087BF7C /* PushNotificationSender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +485,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A562E152235B3ECD00C2A48F /* FyrTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +492,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A562E15D235B3ECD00C2A48F /* FyrUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +646,11 @@
 		};
 		A562E162235B3ECD00C2A48F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF770CAE6448902328CCE68 /* Pods-Fyr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9395QT9948;
 				INFOPLIST_FILE = Fyr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +665,12 @@
 		};
 		A562E163235B3ECD00C2A48F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B15500E71E02D04F06EE2B /* Pods-Fyr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Fyr/FyrRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9395QT9948;
 				INFOPLIST_FILE = Fyr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +685,7 @@
 		};
 		A562E165235B3ECD00C2A48F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547540F2A680606BDEEEFE20 /* Pods-FyrTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +707,7 @@
 		};
 		A562E166235B3ECD00C2A48F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F9A17B9CCD7A9F246182B5 /* Pods-FyrTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +729,7 @@
 		};
 		A562E168235B3ECD00C2A48F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B876826D0B43F918CD1538 /* Pods-Fyr-FyrUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +749,7 @@
 		};
 		A562E169235B3ECD00C2A48F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CD207A850DA810315432F4 /* Pods-Fyr-FyrUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

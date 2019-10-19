@@ -1,0 +1,6 @@
+framework module Pods_FyrTests {
+  umbrella header "Pods-FyrTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

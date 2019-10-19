@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>832562311274-j5d1avp0mon3ab6uve0rpcebjn5tmkq0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.832562311274-j5d1avp0mon3ab6uve0rpcebjn5tmkq0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDhWNQw2BXRMidnAuu0jN5ttygch9ujb74</string>
+	<key>GCM_SENDER_ID</key>
+	<string>832562311274</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>qq.Fyr</string>
+	<key>PROJECT_ID</key>
+	<string>fyre-74ea0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fyre-74ea0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:832562311274:ios:09712d2cde69f986ff1a13</string>
+	<key>DATABASE_URL</key>
+	<string>https://fyre-74ea0.firebaseio.com</string>
+</dict>
+</plist>
