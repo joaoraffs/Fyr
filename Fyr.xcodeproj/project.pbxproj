@@ -21,6 +21,8 @@
 		A58DBFF1235BA5AC0031BAC2 /* aps_development-4.cer in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFF0235BA5AB0031BAC2 /* aps_development-4.cer */; };
 		A58DBFF3235BB1210031BAC2 /* Location.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFF2235BB1210031BAC2 /* Location.storyboard */; };
 		A58DBFF5235BB3180031BAC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFF4235BB3180031BAC2 /* Main.storyboard */; };
+		A58DBFF7235BBB1D0031BAC2 /* launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFF6235BBB1D0031BAC2 /* launch.storyboard */; };
+		A58DBFF9235BBB3D0031BAC2 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFF8235BBB3D0031BAC2 /* Second.storyboard */; };
 		A5EAEE22235B77400087BF7C /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EAEE21235B77400087BF7C /* PushNotificationSender.swift */; };
 		A5EAEE25235B79010087BF7C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EAEE24235B79010087BF7C /* LoginViewController.swift */; };
 		A5EAEE2A235B7A1F0087BF7C /* LoginExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EAEE29235B7A1F0087BF7C /* LoginExecuter.swift */; };
@@ -71,6 +73,8 @@
 		A58DBFF0235BA5AB0031BAC2 /* aps_development-4.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "aps_development-4.cer"; sourceTree = "<group>"; };
 		A58DBFF2235BB1210031BAC2 /* Location.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Location.storyboard; sourceTree = "<group>"; };
 		A58DBFF4235BB3180031BAC2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A58DBFF6235BBB1D0031BAC2 /* launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = launch.storyboard; sourceTree = "<group>"; };
+		A58DBFF8235BBB3D0031BAC2 /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 		A5EAEE21235B77400087BF7C /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
 		A5EAEE24235B79010087BF7C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A5EAEE29235B7A1F0087BF7C /* LoginExecuter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginExecuter.swift; sourceTree = "<group>"; };
@@ -162,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				A58DBFF4235BB3180031BAC2 /* Main.storyboard */,
+				A58DBFF6235BBB1D0031BAC2 /* launch.storyboard */,
+				A58DBFF8235BBB3D0031BAC2 /* Second.storyboard */,
 				A58DBFEB235B91070031BAC2 /* FyrRelease.entitlements */,
 				A5EAEE23235B78D70087BF7C /* ViewControllers */,
 				A562E13A235B3ECB00C2A48F /* AppDelegate.swift */,
@@ -315,6 +321,8 @@
 				A58DBFF1235BA5AC0031BAC2 /* aps_development-4.cer in Resources */,
 				A562E147235B3ECD00C2A48F /* LaunchScreen.storyboard in Resources */,
 				A58DBFEF235B920B0031BAC2 /* GoogleService-Info.plist in Resources */,
+				A58DBFF9235BBB3D0031BAC2 /* Second.storyboard in Resources */,
+				A58DBFF7235BBB1D0031BAC2 /* launch.storyboard in Resources */,
 				A58DBFF3235BB1210031BAC2 /* Location.storyboard in Resources */,
 				A562E144235B3ECD00C2A48F /* Assets.xcassets in Resources */,
 				A562E142235B3ECB00C2A48F /* MainErrado.storyboard in Resources */,

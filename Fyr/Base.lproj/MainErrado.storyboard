@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="913.04347826086962" y="77.678571428571431"/>
         </scene>
-        <!--Verification Code View Controller-->
+        <!--View Controller-->
         <scene sceneID="CAg-DT-GOF">
             <objects>
-                <viewController storyboardIdentifier="verificationCode" id="wUy-58-Q3J" customClass="VerificationCodeViewController" customModule="Fyr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wUy-58-Q3J" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dk7-EE-as8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

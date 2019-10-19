@@ -21,21 +21,22 @@
                                     <constraint firstAttribute="width" secondItem="jJX-eT-Fb3" secondAttribute="height" multiplier="48:13" id="CLB-5U-WN6"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite seu nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ISp-1r-SpU">
-                                <rect key="frame" x="35" y="308.5" width="344" height="36"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Digite seu nome" borderStyle="roundedRect" placeholder="Digite seu nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ISp-1r-SpU">
+                                <rect key="frame" x="35" y="308.5" width="344" height="37"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" textContentType="name"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite seu número de telefone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xtv-Ag-ls1">
-                                <rect key="frame" x="35" y="364.5" width="344" height="36"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Digite seu número de telefone" borderStyle="roundedRect" placeholder="Digite seu número de telefone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xtv-Ag-ls1">
+                                <rect key="frame" x="35" y="365.5" width="344" height="37"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhH-pJ-Vlo">
-                                <rect key="frame" x="83" y="480.5" width="248" height="60"/>
+                                <rect key="frame" x="83" y="482.5" width="248" height="60"/>
                                 <color key="backgroundColor" red="0.0" green="0.70588235294117641" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Fb2-ta-uGI"/>
@@ -78,11 +79,22 @@
                     <connections>
                         <outlet property="nameTextField" destination="ISp-1r-SpU" id="rD5-fd-2Eh"/>
                         <outlet property="phoneNumber" destination="xtv-Ag-ls1" id="pf5-Bm-CV7"/>
+                        <segue destination="vur-Kd-wMV" kind="show" identifier="VerificationCode" id="Xud-GB-Rp5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9s-Rb-nZ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75.362318840579718" y="30.803571428571427"/>
+        </scene>
+        <!--VerificationCode-->
+        <scene sceneID="x0x-od-Cwo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Second" bundleIdentifier="VerificationCode" referencedIdentifier="VerificationCode" id="vur-Kd-wMV" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="7qZ-UB-PzY"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O7l-uK-PqY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="723" y="31"/>
         </scene>
     </scenes>
     <resources>

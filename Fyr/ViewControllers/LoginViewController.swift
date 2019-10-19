@@ -32,7 +32,7 @@ class LoginViewController: UIViewController {
                     
                 }
             })
-            
+            self.changesScreen()
         }
     }
     func sendsSMS(phoneNumber: String,callback:@escaping ((Bool) -> ()))
@@ -52,9 +52,10 @@ class LoginViewController: UIViewController {
     }
     
     private func changesScreen(){
-        let vc = storyboard?.instantiateViewController(withIdentifier: "verificationCode")
-        present(vc!, animated: true)
-        self.navigationController?.pushViewController(vc!, animated: true)
+        let storyboard = UIStoryboard(name: "Second", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "VerificationCode") as? ViewController
+        performSegue(withIdentifier: "VerificationCode", sender: nil)
+
     }
     /*
     // MARK: - Navigation
