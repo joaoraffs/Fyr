@@ -13,11 +13,14 @@
 		A562E13B235B3ECB00C2A48F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562E13A235B3ECB00C2A48F /* AppDelegate.swift */; };
 		A562E13D235B3ECB00C2A48F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562E13C235B3ECB00C2A48F /* SceneDelegate.swift */; };
 		A562E13F235B3ECB00C2A48F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562E13E235B3ECB00C2A48F /* ViewController.swift */; };
-		A562E142235B3ECB00C2A48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A562E140235B3ECB00C2A48F /* Main.storyboard */; };
+		A562E142235B3ECB00C2A48F /* MainErrado.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A562E140235B3ECB00C2A48F /* MainErrado.storyboard */; };
 		A562E144235B3ECD00C2A48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A562E143235B3ECD00C2A48F /* Assets.xcassets */; };
 		A562E147235B3ECD00C2A48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A562E145235B3ECD00C2A48F /* LaunchScreen.storyboard */; };
 		A58DBFEA235B8F340031BAC2 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58DBFE9235B8F330031BAC2 /* PushNotificationManager.swift */; };
 		A58DBFEF235B920B0031BAC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFEE235B920B0031BAC2 /* GoogleService-Info.plist */; };
+		A58DBFF1235BA5AC0031BAC2 /* aps_development-4.cer in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFF0235BA5AB0031BAC2 /* aps_development-4.cer */; };
+		A58DBFF3235BB1210031BAC2 /* Location.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFF2235BB1210031BAC2 /* Location.storyboard */; };
+		A58DBFF5235BB3180031BAC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFF4235BB3180031BAC2 /* Main.storyboard */; };
 		A5EAEE22235B77400087BF7C /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EAEE21235B77400087BF7C /* PushNotificationSender.swift */; };
 		A5EAEE25235B79010087BF7C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EAEE24235B79010087BF7C /* LoginViewController.swift */; };
 		A5EAEE2A235B7A1F0087BF7C /* LoginExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EAEE29235B7A1F0087BF7C /* LoginExecuter.swift */; };
@@ -56,7 +59,7 @@
 		A562E13A235B3ECB00C2A48F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A562E13C235B3ECB00C2A48F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A562E13E235B3ECB00C2A48F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A562E141235B3ECB00C2A48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A562E141235B3ECB00C2A48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainErrado.storyboard; sourceTree = "<group>"; };
 		A562E143235B3ECD00C2A48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A562E146235B3ECD00C2A48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A562E148235B3ECD00C2A48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +68,9 @@
 		A58DBFE9235B8F330031BAC2 /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
 		A58DBFEB235B91070031BAC2 /* FyrRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FyrRelease.entitlements; sourceTree = "<group>"; };
 		A58DBFEE235B920B0031BAC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Into the groove/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A58DBFF0235BA5AB0031BAC2 /* aps_development-4.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "aps_development-4.cer"; sourceTree = "<group>"; };
+		A58DBFF2235BB1210031BAC2 /* Location.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Location.storyboard; sourceTree = "<group>"; };
+		A58DBFF4235BB3180031BAC2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A5EAEE21235B77400087BF7C /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
 		A5EAEE24235B79010087BF7C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A5EAEE29235B7A1F0087BF7C /* LoginExecuter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginExecuter.swift; sourceTree = "<group>"; };
@@ -155,19 +161,22 @@
 		A562E139235B3ECB00C2A48F /* Fyr */ = {
 			isa = PBXGroup;
 			children = (
+				A58DBFF4235BB3180031BAC2 /* Main.storyboard */,
 				A58DBFEB235B91070031BAC2 /* FyrRelease.entitlements */,
 				A5EAEE23235B78D70087BF7C /* ViewControllers */,
 				A562E13A235B3ECB00C2A48F /* AppDelegate.swift */,
 				A58DBFE9235B8F330031BAC2 /* PushNotificationManager.swift */,
 				A562E13C235B3ECB00C2A48F /* SceneDelegate.swift */,
 				A562E13E235B3ECB00C2A48F /* ViewController.swift */,
-				A562E140235B3ECB00C2A48F /* Main.storyboard */,
+				A562E140235B3ECB00C2A48F /* MainErrado.storyboard */,
+				A58DBFF2235BB1210031BAC2 /* Location.storyboard */,
 				A562E143235B3ECD00C2A48F /* Assets.xcassets */,
 				A562E145235B3ECD00C2A48F /* LaunchScreen.storyboard */,
 				A53293E7235B84BD009F701E /* ModelRaffs.swift */,
 				A5EAEE2B235B7A3D0087BF7C /* Model.swift */,
 				A5EAEE21235B77400087BF7C /* PushNotificationSender.swift */,
 				A5EAEE29235B7A1F0087BF7C /* LoginExecuter.swift */,
+				A58DBFF0235BA5AB0031BAC2 /* aps_development-4.cer */,
 				A562E148235B3ECD00C2A48F /* Info.plist */,
 				A58DBFEE235B920B0031BAC2 /* GoogleService-Info.plist */,
 				A53293E9235B8884009F701E /* Model */,
@@ -303,10 +312,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58DBFF1235BA5AC0031BAC2 /* aps_development-4.cer in Resources */,
 				A562E147235B3ECD00C2A48F /* LaunchScreen.storyboard in Resources */,
 				A58DBFEF235B920B0031BAC2 /* GoogleService-Info.plist in Resources */,
+				A58DBFF3235BB1210031BAC2 /* Location.storyboard in Resources */,
 				A562E144235B3ECD00C2A48F /* Assets.xcassets in Resources */,
-				A562E142235B3ECB00C2A48F /* Main.storyboard in Resources */,
+				A562E142235B3ECB00C2A48F /* MainErrado.storyboard in Resources */,
+				A58DBFF5235BB3180031BAC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,12 +523,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A562E140235B3ECB00C2A48F /* Main.storyboard */ = {
+		A562E140235B3ECB00C2A48F /* MainErrado.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A562E141235B3ECB00C2A48F /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainErrado.storyboard;
 			sourceTree = "<group>";
 		};
 		A562E145235B3ECD00C2A48F /* LaunchScreen.storyboard */ = {

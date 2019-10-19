@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XkX-Ug-UuW">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="Bmw-Wi-8J3">
+            <objects>
+                <viewController restorationIdentifier="InitialViewStoryboard" storyboardIdentifier="InitialViewStoryboard" id="XkX-Ug-UuW" customClass="LoginViewController" customModule="Fyr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p4t-Lb-Lnh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="jJX-eT-Fb3">
+                                <rect key="frame" x="83" y="94" width="248" height="67.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jJX-eT-Fb3" secondAttribute="height" multiplier="48:13" id="CLB-5U-WN6"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite seu nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ISp-1r-SpU">
+                                <rect key="frame" x="35" y="308.5" width="344" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" textContentType="name"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite seu número de telefone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xtv-Ag-ls1">
+                                <rect key="frame" x="35" y="364.5" width="344" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhH-pJ-Vlo">
+                                <rect key="frame" x="83" y="480.5" width="248" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.70588235294117641" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Fb2-ta-uGI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="ENVIAR  CÓDIGO">
+                                    <color key="titleColor" red="0.98431372549999996" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendButton:" destination="XkX-Ug-UuW" eventType="touchUpInside" id="5cR-OK-ZtH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entrar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Fl-Ww-Vat">
+                                <rect key="frame" x="70" y="246.5" width="274" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98431372549019602" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jJX-eT-Fb3" firstAttribute="centerX" secondItem="1NY-1u-kXa" secondAttribute="centerX" id="80n-Sk-gKp"/>
+                            <constraint firstItem="ZhH-pJ-Vlo" firstAttribute="top" secondItem="xtv-Ag-ls1" secondAttribute="bottom" constant="80" id="AGO-rX-V8I"/>
+                            <constraint firstItem="ZhH-pJ-Vlo" firstAttribute="centerX" secondItem="p4t-Lb-Lnh" secondAttribute="centerX" id="Dj2-8D-Lgs"/>
+                            <constraint firstItem="1NY-1u-kXa" firstAttribute="trailing" secondItem="8Fl-Ww-Vat" secondAttribute="trailing" constant="70" id="Dww-Pf-wr1"/>
+                            <constraint firstItem="ISp-1r-SpU" firstAttribute="top" secondItem="8Fl-Ww-Vat" secondAttribute="bottom" constant="20" id="ICA-SX-vc8"/>
+                            <constraint firstItem="xtv-Ag-ls1" firstAttribute="top" secondItem="ISp-1r-SpU" secondAttribute="bottom" constant="20" id="NLm-sT-fLB"/>
+                            <constraint firstItem="xtv-Ag-ls1" firstAttribute="width" secondItem="ISp-1r-SpU" secondAttribute="width" id="Rxj-3S-e5R"/>
+                            <constraint firstItem="jJX-eT-Fb3" firstAttribute="width" secondItem="1NY-1u-kXa" secondAttribute="width" multiplier="0.6" id="UQy-P2-pYO"/>
+                            <constraint firstItem="ZhH-pJ-Vlo" firstAttribute="width" secondItem="jJX-eT-Fb3" secondAttribute="width" id="fSB-oM-vU4"/>
+                            <constraint firstItem="1NY-1u-kXa" firstAttribute="trailing" secondItem="ISp-1r-SpU" secondAttribute="trailing" constant="35" id="h4K-w6-BYW"/>
+                            <constraint firstItem="xtv-Ag-ls1" firstAttribute="centerX" secondItem="ISp-1r-SpU" secondAttribute="centerX" id="j7v-e7-feR"/>
+                            <constraint firstItem="8Fl-Ww-Vat" firstAttribute="leading" secondItem="1NY-1u-kXa" secondAttribute="leading" constant="70" id="qrG-hB-uM7"/>
+                            <constraint firstItem="8Fl-Ww-Vat" firstAttribute="top" secondItem="jJX-eT-Fb3" secondAttribute="bottom" constant="85" id="sin-hf-COL"/>
+                            <constraint firstItem="ISp-1r-SpU" firstAttribute="leading" secondItem="1NY-1u-kXa" secondAttribute="leading" constant="35" id="uJP-ue-faC"/>
+                            <constraint firstItem="jJX-eT-Fb3" firstAttribute="top" secondItem="1NY-1u-kXa" secondAttribute="top" constant="50" id="yeQ-cc-Mqq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1NY-1u-kXa"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="ISp-1r-SpU" id="rD5-fd-2Eh"/>
+                        <outlet property="phoneNumber" destination="xtv-Ag-ls1" id="pf5-Bm-CV7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D9s-Rb-nZ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75.362318840579718" y="30.803571428571427"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LOGO" width="211" height="58"/>
+    </resources>
+</document>

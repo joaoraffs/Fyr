@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+import FirebaseAuth
+import Firebase
 class VerificationCodeViewController: UIViewController {
 
     override func viewDidLoad() {

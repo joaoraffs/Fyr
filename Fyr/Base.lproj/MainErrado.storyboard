@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fQ4-fE-yD4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
@@ -17,15 +17,28 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="Z2T-d0-AbH" kind="show" identifier="segueToInitial" id="b8E-Fj-WwH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="78"/>
         </scene>
-        <!--Login View Controller-->
+        <!--InitialViewStoryboard-->
+        <scene sceneID="uZj-ml-Qkk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="InitialView" bundleIdentifier="InitialViewStoryboard" referencedIdentifier="InitialViewStoryboard" id="Z2T-d0-AbH" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="m1Z-7F-fVK"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Xd-wQ-jRh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-520" y="120"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="lq1-pk-cq3">
             <objects>
-                <viewController id="fQ4-fE-yD4" customClass="LoginViewController" customModule="Fyr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fQ4-fE-yD4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hok-kw-FBz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,17 +53,11 @@
                                 <rect key="frame" x="188" y="355" width="38" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="send!"/>
-                                <connections>
-                                    <action selector="sendButton:" destination="fQ4-fE-yD4" eventType="touchUpInside" id="cHM-2S-EZN"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="zCF-iL-CNC"/>
                     </view>
-                    <connections>
-                        <outlet property="phoneNumber" destination="JMt-11-vkB" id="NqX-Xt-kVw"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8jp-DA-Khd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -81,21 +88,15 @@
                                 <rect key="frame" x="186" y="379" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log In"/>
-                                <connections>
-                                    <action selector="loginButton:" destination="wUy-58-Q3J" eventType="touchUpInside" id="wSU-Mz-QuD"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="psl-Mi-jZh"/>
                     </view>
-                    <connections>
-                        <outlet property="codeFromSMS" destination="jLI-Vf-oWb" id="vq4-EQ-KVb"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HOt-wd-mNi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1982.608695652174" y="77.678571428571431"/>
+            <point key="canvasLocation" x="1686" y="78"/>
         </scene>
     </scenes>
 </document>

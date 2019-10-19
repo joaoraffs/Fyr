@@ -33,7 +33,7 @@ public class LoginExecuter{
                 print("entrou no else")
                 Model.instance.phone = phoneNumber
                 Model.instance.verificationID = verificationID!
-                UserDefaults.standard.set(verificationID, forKey: "VerificationID")
+                UserDefaults.standard.set(verificationID, forKey: "modelVerificationID")
                 callback(true)
             }
             

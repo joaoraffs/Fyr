@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+import FirebaseAuth
+import Firebase
 class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -17,17 +18,35 @@ class LoginViewController: UIViewController {
     
     var loginExecuter : LoginExecuter = LoginExecuter()
     
+    @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var phoneNumber: UITextField!
+    
     @IBAction func sendButton(_ sender: Any) {
         if let number = phoneNumber.text{
-            self.loginExecuter.sendsSMS(phoneNumber: number) { (success) in
+            self.sendsSMS(phoneNumber: number, callback:{ (success) in
                 if !success{
                     print("o número está errado")
                 }else{
                     ModelRaffs.instance.loginExecuter = self.loginExecuter
                     ModelRaffs.instance.phone = number
-                    self.changesScreen()
+                    
                 }
+            })
+            
+        }
+    }
+    func sendsSMS(phoneNumber: String,callback:@escaping ((Bool) -> ()))
+    {
+        PhoneAuthProvider.provider().verifyPhoneNumber(phoneNumber, uiDelegate: nil) { (verificationID, error) in
+            if error != nil {
+                print("entrou no error no aprimeiro auth")
+                callback(false)
+            }else{
+                print("entrou no else")
+                Model.instance.phone = phoneNumber
+                Model.instance.verificationID = String(describing: verificationID!)
+                UserDefaults.standard.set(verificationID, forKey: "VerificationID")
+                callback(true)
             }
         }
     }

@@ -14,5 +14,10 @@ public class Model{
     var phone = ""
     var verificationID = ""
     
+    public func savesInUserDefault(){
+        UserDefaults.standard.set(phone, forKey: "modelPhone")
+        UserDefaults.standard.set(verificationID, forKey: "modelVerificationID")
+    }
+    
     
 }
